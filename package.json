@@ -1,0 +1,14 @@
+{
+  "name": "lemon-dragin",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "lemon-pack"
+  },
+  "devDependencies": {
+    "lemon-pack": "^0.2.0"
+  },
+  "dependencies": {
+    "lemon-util": "^0.1.6"
+  }
+}
