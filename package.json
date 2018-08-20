@@ -2,6 +2,11 @@
   "name": "lemon-dragin",
   "version": "0.1.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemonppai/dragin.git"
+  },
+  "main": "index.js",
   "scripts": {
     "dev": "lemon-pack"
   },
