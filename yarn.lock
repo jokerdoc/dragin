@@ -2898,9 +2898,9 @@ lemon-pack@^0.2.0:
     webpack-cli "^3.1.0"
     webpack-dev-server "^3.1.5"
 
-lemon-util@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/lemon-util/-/lemon-util-0.1.6.tgz#c94ac818233ca5963d3ac360fd34ebc015807bc4"
+lemon-util@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/lemon-util/-/lemon-util-2.0.0.tgz#715445fd2bcf3ab1eabcd635be3e9db8efd15502"
   dependencies:
     lodash "^4.17.10"
     moment "^2.22.2"
