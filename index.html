@@ -6,10 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Draggable Demo</title>
   <style>
+  html,body {
+    margin: 0;
+    padding: 0;
+  }
   .box {
+    position: absolute;
     width: 100px;
     height: 100px;
-    margin: 5px;
+    /* margin: 5px; */
     line-height: 100px;
     text-align: center;
     font-size: 14px;
@@ -19,11 +24,11 @@
   </style>
 </head>
 <body>
-  <div class="box">
+  <div class="box" style="left: 10px; top: 10px;">
     Drag To Clone
   </div>
 
-  <div class="box" style="position: absolute;">
+  <div class="box" style="left: 120px; top: 10px;">
     Drag To Self
   </div>
 </body>
