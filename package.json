@@ -1,5 +1,5 @@
 {
-  "name": "lemon-dragin",
+  "name": "jo-dragin",
   "version": "0.2.0",
   "license": "MIT",
   "repository": {
@@ -14,6 +14,6 @@
     "lemon-pack": "^0.2.0"
   },
   "dependencies": {
-    "lemon-util": "^2.0.0"
+    "jo-util": "^0.1.0"
   }
 }

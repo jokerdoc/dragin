@@ -3,14 +3,14 @@
 
 ### 在项目中安装
 ```bash
-npm install lemon-dragin --save
+npm install jo-dragin --save
 # 或
-yarn add lemon-dragin
+yarn add jo-dragin
 ```
 
 ### 使用
 ```js
-import Dragin from 'lemon-dragin';
+import Dragin from 'jo-dragin';
 
 new Dragin(docment.querySelector('#box'), {
   clone: true,
