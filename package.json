@@ -1,6 +1,6 @@
 {
   "name": "jo-dragin",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -8,10 +8,10 @@
   },
   "main": "index.js",
   "scripts": {
-    "dev": "lemon-pack"
+    "dev": "jo-pack"
   },
   "devDependencies": {
-    "lemon-pack": "^0.2.0"
+    "jo-pack": "^0.1.0"
   },
   "dependencies": {
     "jo-util": "^0.1.0"
