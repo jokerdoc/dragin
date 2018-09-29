@@ -1,6 +1,6 @@
 {
   "name": "jo-dragin",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,6 +14,7 @@
     "jo-pack": "^0.1.0"
   },
   "dependencies": {
-    "jo-util": "^0.1.0"
+    "jo-util": "^0.1.3",
+    "lodash": "^4.17.11"
   }
 }
