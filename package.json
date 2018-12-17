@@ -1,6 +1,6 @@
 {
   "name": "jo-dragin",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -8,12 +8,22 @@
   },
   "main": "index.js",
   "scripts": {
-    "dev": "jo-pack"
+    "build": "rollup -c"
   },
+  "files": [
+    "index.js",
+    "dist/dragin.js"
+  ],
   "devDependencies": {
-    "jo-pack": "^0.1.0"
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "rollup": "^0.68.0",
+    "rollup-plugin-babel": "^4.1.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-scss": "^0.4.0"
   },
   "dependencies": {
-    "jo-util": "^0.1.7"
+    "jo-util": "^0.2.1"
   }
 }
