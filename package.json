@@ -1,6 +1,6 @@
 {
   "name": "jo-dragin",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -12,7 +12,8 @@
   },
   "files": [
     "index.js",
-    "dist/dragin.js"
+    "lib/**",
+    "dist/**"
   ],
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -24,6 +25,6 @@
     "rollup-plugin-scss": "^0.4.0"
   },
   "dependencies": {
-    "jo-util": "^0.2.1"
+    "jo-util": "^0.2.4"
   }
 }
