@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Draggable Demo</title>
+  <link rel="stylesheet" href="dist/dragin.css">
+  <script src="dist/dragin.js"></script>
   <style>
   html,body {
     margin: 0;
@@ -31,5 +33,35 @@
   <div class="box" style="left: 120px; top: 10px;">
     Drag To Self
   </div>
+
+  <script>
+  new Dragin(Dragin.getEls('.box')[0], {
+    clone: true,
+    dir: 'hor',
+    start(x, y) {
+      console.log('start', x, y);
+    },
+    move(x, y) {
+      console.log('move', x, y);
+    },
+    end() {
+      console.log('end');
+    }
+  })
+
+  new Dragin(Dragin.getEls('.box')[1], {
+    limitX: [120, 320],
+    limitY: [10, 210],
+    start(x, y) {
+      console.log('start', x, y);
+    },
+    move(x, y) {
+      console.log('move', x, y);
+    },
+    end() {
+      console.log('end');
+    }
+  })
+  </script>
 </body>
 </html>

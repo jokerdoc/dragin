@@ -1,4 +1,5 @@
 import resolve from 'rollup-plugin-node-resolve';
+import commonjs from 'rollup-plugin-commonjs';
 import babel from 'rollup-plugin-babel';
 import scss from 'rollup-plugin-scss';
 
@@ -9,11 +10,12 @@ export default {
     format: 'umd',
     name: 'Dragin'
   },
-  external: ['jo-util'],
+  // external: ['jo-util'],
   plugins: [
     resolve({
       jsnext: true
     }),
+    commonjs(),
     scss({
       output: 'dist/dragin.css'
     }),

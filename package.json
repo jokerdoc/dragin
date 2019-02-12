@@ -8,12 +8,13 @@
   },
   "main": "index.js",
   "scripts": {
+    "serve": "http-server -p 8000 -o",
     "build": "rollup -c"
   },
   "files": [
     "index.js",
-    "lib/**",
-    "dist/**"
+    "lib",
+    "dist"
   ],
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -21,6 +22,7 @@
     "@babel/preset-env": "^7.2.0",
     "rollup": "^0.68.0",
     "rollup-plugin-babel": "^4.1.0",
+    "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-scss": "^0.4.0"
   },
