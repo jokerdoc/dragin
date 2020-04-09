@@ -8,7 +8,7 @@ export default {
   output: {
     file: './dist/dragin.js',
     format: 'umd',
-    name: 'Dragin'
+    name: 'joDragin',
   },
   // external: ['jo-util'],
   plugins: [
@@ -24,5 +24,6 @@ export default {
       babelrc: false,
       presets: [['@babel/preset-env', { modules: false }]]
     })
-  ]
+  ],
+  external: ['jo-util']
 };

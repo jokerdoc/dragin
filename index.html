@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Draggable Demo</title>
+  <script src="node_modules/jo-util/dist/util.js"></script>
   <link rel="stylesheet" href="dist/dragin.css">
   <script src="dist/dragin.js"></script>
   <style>
@@ -35,7 +36,7 @@
   </div>
 
   <script>
-  new Dragin(Dragin.getEls('.box')[0], {
+  new joDragin(joDragin.getEls('.box')[0], {
     clone: true,
     dir: 'hor',
     start(x, y) {
@@ -49,7 +50,7 @@
     }
   })
 
-  new Dragin(Dragin.getEls('.box')[1], {
+  new joDragin(joDragin.getEls('.box')[1], {
     limitX: [120, 320],
     limitY: [10, 210],
     start(x, y) {

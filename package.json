@@ -1,18 +1,17 @@
 {
   "name": "jo-dragin",
-  "version": "0.2.7",
+  "version": "0.3.1",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jokerdoc/dragin.git"
   },
-  "main": "index.js",
+  "main": "dist/dragin.js",
   "scripts": {
     "serve": "http-server -p 8000 -o",
     "build": "rollup -c"
   },
   "files": [
-    "index.js",
     "lib",
     "dist"
   ],
@@ -27,6 +26,6 @@
     "rollup-plugin-scss": "^0.4.0"
   },
   "dependencies": {
-    "jo-util": "^0.2.4"
+    "jo-util": "^0.3.0"
   }
 }
