@@ -1,6 +1,6 @@
 {
   "name": "jo-dragin",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -26,6 +26,6 @@
     "rollup-plugin-scss": "^2.1.0"
   },
   "dependencies": {
-    "jo-util": "^0.3.1"
+    "jo-util": "^0.3.2"
   }
 }
