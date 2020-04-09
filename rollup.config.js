@@ -10,7 +10,7 @@ export default {
     format: 'umd',
     name: 'joDragin',
   },
-  // external: ['jo-util'],
+  external: ['jo-util'],
   plugins: [
     resolve({
       jsnext: true
@@ -25,5 +25,4 @@ export default {
       presets: [['@babel/preset-env', { modules: false }]]
     })
   ],
-  external: ['jo-util']
 };
